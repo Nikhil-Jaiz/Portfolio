@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="navbar">
+           
+            <ul>
+           
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            
+            </ul>
+    
+            </nav>
+            <div class="header-text">
+                <p>I m <strong>Nikhil Jaiswal.</strong> </p>
+                <h4>A Front-End Developer From India.</h4></h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/image1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello ! This is <strong>Nikhil Jaiswal</strong>.A Front-End Developer From India.
+                     Currently I am Pursing my B.Tech From AKGEC,Ghaziabad in <strong>Computer Science and Engineering.</strong>
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Languages</span><br>C++,Python,Java,SQL,HTML,CSS Javascript</li>
+                            <li><span>Frameworks</span><br>ReactJS,JQuery, Bootstrap</li>
+                            <li><span>Database</span><br>MYSQL,ORACLE,SQL,MONGODB,MONGOSE</li>
+                            <li><span>Softwares</span><br>VS Code,Atom, Github</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Graduation(CSE),Ghaziabad</li>
+                            <li><span>2019</span><br>12th,Varanasi</li>
+                            <li><span>2017</span><br>10th,Varanaso</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><br>Sports</li>
+                            <li><br>Reading</li>
+                            <li><br>Writing</li>
+                            <li><br>Travelling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="Projects-list">
+                <div class="Projects">
+                    <img src="images/Project1.jpg">
+                    <div class="layer">
+                    <h3>Shoping Cart</h3>
+                    
+                </div>
+                </div>
+                <div class="Projects">
+                    <img src="images/Project2.png">
+                    <div class="layer">
+                        <h3>Chess Game</h3>
+                    </div>
+            </div>
+            <div class="Projects">
+                <img src="images/Project3.avif">
+                <div class="layer">
+                    <h3>Registration Form</h3>
+                </div>
+        </div>
+     </div>
+      <a href="#" class="btn1">Explore</a>
+        </div>
+    </div>
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis optio natus expedita accusamus animi commodi eum voluptatem dolor quam sed asperiores, officiis vero sapiente minus perspiciatis illo molestias fuga nobis sint odit adipisci inventore.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis optio natus expedita accusamus animi commodi eum voluptatem dolor quam sed asperiores, officiis vero sapiente minus perspiciatis illo molestias fuga nobis sint odit adipisci inventore.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis optio natus expedita accusamus animi commodi eum voluptatem dolor quam sed asperiores, officiis vero sapiente minus perspiciatis illo molestias fuga nobis sint odit adipisci inventore.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="Contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>xyz@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+919999999999</p>
+                    <a href="#" download class="btn1 btn3">Download CV</a>
+                </div>
+                <div class="Contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn bt3">Submit</button>
+                    </form>
+                    
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
